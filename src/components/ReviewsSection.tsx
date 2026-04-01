@@ -38,7 +38,7 @@ const ReviewsSection = () => {
       
       <div ref={ref} className="container mx-auto px-4 relative z-10">
         <h2
-          className={`text-3xl md:text-4xl font-display font-bold text-center text-primary italic mb-2 transition-all duration-700 ${
+          className={`text-3xl md:text-4xl poppins-extrabold  text-center text-white italic mb-2 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -55,20 +55,20 @@ const ReviewsSection = () => {
           {reviews.map((review, i) => (
             <div
               key={review.name}
-              className={`bg-card border border-border rounded-lg p-6 hover:border-primary/30 transition-all duration-500 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 ${
+              className={`bg-card border-red-600 border-border rounded-lg p-6 hover:border-blue-600 transition-all duration-500 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
               style={{ transitionDelay: isVisible ? `${200 + i * 100}ms` : "0ms" }}
             >
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary/30 to-primary/10 flex items-center justify-center text-primary font-bold text-sm border border-primary/20">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-red-600 to-blue-600 flex items-center justify-center text-white poppins-extrabold text-sm border border-blue-600">
                   {review.name.charAt(0)}
                 </div>
                 <p className="font-display font-semibold text-foreground">{review.name}</p>
               </div>
               <div className="flex gap-0.5 mb-3">
                 {[...Array(5)].map((_, j) => (
-                  <Star key={j} size={14} className="fill-primary text-primary" />
+                  <Star key={j} size={14} className="fill-blue-600 text-blue-600" />
                 ))}
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed italic">"{review.text}"</p>

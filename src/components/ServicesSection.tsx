@@ -31,7 +31,7 @@ const ServicesSection = () => {
       
       <div ref={ref} className="container mx-auto px-4">
         <h2
-          className={`text-3xl md:text-4xl font-display  text-center uppercase tracking-wider text-foreground mb-3 transition-all duration-700 ${
+          className={`text-3xl md:text-4xl poppins-extrabold  text-center uppercase tracking-wider text-foreground mb-3 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -48,7 +48,7 @@ const ServicesSection = () => {
           {services.map((service, i) => (
             <div
               key={service.title}
-              className={`group relative overflow-hidden rounded-lg bg-card border border-border hover:border-primary/50 transition-all duration-700 hover:shadow-xl hover:shadow-primary/5 ${
+              className={`group relative overflow-hidden rounded-lg border-red-600 bg-card border border-border hover:border-blue-600 transition-all duration-700 hover:shadow-xl hover:shadow-primary/5 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
               }`}
               style={{ transitionDelay: isVisible ? `${200 + i * 150}ms` : "0ms" }}
@@ -64,15 +64,15 @@ const ServicesSection = () => {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-display font-bold text-primary uppercase tracking-wide mb-2">
+                <h3 className="text-lg poppins-extrabold text-blue-600 uppercase tracking-wide mb-2">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <p className="text-muted-foreground poppins-light leading-relaxed">
                   {service.description}
                 </p>
               </div>
               {/* Gold accent line */}
-              <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary/50 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
+              <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-blue-600 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
             </div>
           ))}
         </div>

@@ -6,15 +6,15 @@ const LocationSection = () => {
 
   return (
     <section id="localizacao" className="py-20 md:py-28 bg-background relative">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-primary to-transparent" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-blue-600 to-transparent" />
 
       <div ref={ref} className="container mx-auto px-4">
         <h2
-          className={`text-3xl md:text-4xl font-display font-bold text-center text-foreground mb-2 transition-all duration-700 ${
+          className={`text-3xl md:text-4xl poppins-extrabold  text-center text-foreground mb-2 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Onde Estamos <span className="text-primary italic">Localização</span>
+          Onde Estamos <span className="text-red-600 italic">Localização</span>
         </h2>
         <p
           className={`text-muted-foreground text-center mb-12 transition-all duration-700 delay-100 ${
@@ -60,10 +60,10 @@ const LocationSection = () => {
               }`}
               style={{ transitionDelay: isVisible ? `${200 + i * 150}ms` : "0ms" }}
             >
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <item.icon size={22} className="text-primary" />
+              <div className="w-12 h-12 rounded-full bg-blue-600/10 flex items-center justify-center mb-4">
+                <item.icon size={22} className="text-blue-600" />
               </div>
-              <h4 className="font-display font-semibold text-foreground mb-2">{item.title}</h4>
+              <h4 className="poppins-extrabold text-foreground mb-2">{item.title}</h4>
               <p className="text-muted-foreground text-sm">{item.content}</p>
             </div>
           ))}

@@ -16,10 +16,10 @@ const BookingSection = () => {
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
             }`}
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold italic text-foreground mb-1">
+            <h2 className="text-5xl md:text-4xl poppins-extrabold text-foreground mb-1">
               Agende seu horário
             </h2>
-            <p className="text-2xl md:text-3xl font-display font-bold text-gold-gradient mb-4">
+            <p className="text-2xl md:text-3xl poppins-extrabold text-blue-600 mb-4">
               Experiência
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
@@ -27,7 +27,7 @@ const BookingSection = () => {
             </p>
             <a
               href=""
-              className="inline-block bg-gold-gradient text-primary-foreground font-semibold px-8 py-3.5 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-lg hover:shadow-primary/20"
+              className="inline-block bg-blue-600 text-primary-foreground font-semibold px-8 py-3.5 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-lg hover:shadow-primary/20"
             >
               Fazer Agendamento
             </a>
@@ -47,7 +47,7 @@ const BookingSection = () => {
                 className="rounded-lg w-full object-cover aspect-[4/5] group-hover:scale-[1.02] transition-transform duration-500"
               />
               {/* Frame accent */}
-              <div className="absolute -inset-2 border border-primary/20 rounded-lg pointer-events-none" />
+              <div className="absolute -inset-2 border border-blue-600 rounded-lg pointer-events-none" />
             </div>
           </div>
         </div>
