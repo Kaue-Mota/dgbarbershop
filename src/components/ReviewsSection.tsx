@@ -20,10 +20,7 @@ const reviews =
     name: "João Carlos Gonzaga Filho",
     text: "Local simples mas agradável. Corte bem feito. Preço muito bom."
   },
-  {
-    name: "Sofá Binho Limpeza e Impermeabilização",
-    text: "Ótima barbearia. Atendimento excelente. Super recomendo. Serviço feito com maestria."
-  },
+  
   {
     name: "Adrian Matheus",
     text: "Boa localização, organizado e os serviços são excelentes!"
