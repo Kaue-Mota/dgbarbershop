@@ -19,7 +19,7 @@ const HeroSection = () => {
           Estilo e técnica que transformam
         </p>
         <a
-          href=""
+          href="https://cashbarber.com.br/dgbarbershop"
           className="bg-blue-red-gradient text-white poppins-extrabold px-10 py-3.5 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-lg hover:shadow-primary/20 animate-[fadeInUp_1s_ease-out_0.5s_both]"
         >
           Agendar Horário
