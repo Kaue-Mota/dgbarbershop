@@ -26,7 +26,7 @@ const BookingSection = () => {
               Escolha o serviço e o melhor horário para você
             </p>
             <a
-              href="https://chat.inbarberapp.com/barbeariamatos"
+              href=""
               className="inline-block bg-gold-gradient text-primary-foreground font-semibold px-8 py-3.5 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-lg hover:shadow-primary/20"
             >
               Fazer Agendamento

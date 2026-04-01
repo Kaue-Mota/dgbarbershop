@@ -52,13 +52,13 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-3 group">
           <img
             src={logo}
-            alt="Barbearia Mattos"
+            alt="DG Barber Shop"
             width={40}
             height={40}
             className="transition-transform duration-300 group-hover:scale-110"
           />
           <span className="hidden sm:block font-display text-sm font-bold uppercase tracking-widest text-gold-gradient">
-            Barbearia Mattos
+            DG Barber Shop
           </span>
         </Link>
 
@@ -88,7 +88,7 @@ const Header = () => {
             )
           )}
           <a
-            href="https://chat.inbarberapp.com/barbeariamatos"
+            href="#"
             className="ml-4 bg-gold-gradient text-primary-foreground font-semibold px-5 py-2 rounded text-xs uppercase tracking-widest hover:opacity-90 transition-opacity"
           >
             Agendar
@@ -136,8 +136,8 @@ const Header = () => {
             )
           )}
           <a
-            href="https://chat.inbarberapp.com/barbeariamatos"
-            className="mt-4 bg-gold-gradient text-primary-foreground font-semibold px-6 py-3 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-opacity text-center"
+            href="#"
+            className="mt-4 bg-blue-red-gradient text-white font-semibold px-6 py-3 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-opacity text-center"
           >
             Agendar Horário
           </a>

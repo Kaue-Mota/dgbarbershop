@@ -1,5 +1,5 @@
-import serviceHaircut from "/images/corte-infantils.jpg";
-import serviceBeard from "/images/barba.jpg";
+import serviceHaircut from "/images/infantilservice.jpg";
+import serviceBeard from "/images/barbaservice.jpg";
 import serviceTreatment from "/images/style.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
@@ -25,13 +25,13 @@ const ServicesSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section id="servicos" className="py-20 md:py-28 bg-background relative">
+    <section id="servicos" className="poppins-light py-20 md:py-28 bg-background relative">
       {/* Decorative top line */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-primary to-transparent" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-blue-600 to-transparent" />
       
       <div ref={ref} className="container mx-auto px-4">
         <h2
-          className={`text-3xl md:text-4xl font-display font-bold text-center uppercase tracking-wider text-foreground mb-3 transition-all duration-700 ${
+          className={`text-3xl md:text-4xl font-display  text-center uppercase tracking-wider text-foreground mb-3 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >

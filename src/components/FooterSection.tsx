@@ -10,7 +10,7 @@ const FooterSection = () => {
       <div className="container mx-auto px-4 flex flex-col items-center relative z-10">
         <img
           src={logo}
-          alt="Barbearia Mattos"
+          alt="DG Barber Shop Logo"
           width={72}
           height={72}
           className="mb-6 hover:scale-110 transition-transform duration-300"
@@ -18,14 +18,14 @@ const FooterSection = () => {
         />
         <div className="flex gap-3 mb-8">
           <a
-            href="https://www.instagram.com/mattos_barbeariabr/"
+            href=""
             target="_blank"
             className="bg-gradient-to-r from-pink-600 to-purple-600 hover:opacity-90 text-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
           >
             <Instagram size={16} /> Instagram
           </a>
             <a
-            href="https://wa.me/5561992389117?text=Olá! Gostaria de agendar um horário na Barbearia Mattos."
+            href="https://wa.me/5561992389117?text=Olá! Gostaria de agendar um horário na DG Barber Shop."
             className="bg-gradient-to-r from-green-600 to-green-700 hover:opacity-90 text-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
             >
             WhatsApp
@@ -36,7 +36,7 @@ const FooterSection = () => {
           Estilo, técnica e bom gosto em um só lugar
         </p>
         <p className="text-muted-foreground text-xs">
-          © 2025 Barbearia Mattos. Todos os direitos reservados.
+          © 2025 DG Barber Shop. Todos os direitos reservados.
         </p>
       </div>
     </footer>
