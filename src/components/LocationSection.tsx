@@ -30,7 +30,7 @@ const LocationSection = () => {
               title: "Endereço",
               content: (
                 <>
-                  AR 01 Conjunto 03, Loja 01, Lote 18<br />Sobradinho 2 - Brasília - DF<br />CEP: 73060-103
+                  SH Mansões Sobradinho <br /> Condomínio Mini-Chácaras QMS 23 lote 1 - Sobradinho II, <br />Brasília - DF,<br /> 73082-260
                 </>
               ),
             },

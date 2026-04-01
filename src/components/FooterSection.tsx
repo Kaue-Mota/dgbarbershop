@@ -18,14 +18,14 @@ const FooterSection = () => {
         />
         <div className="flex gap-3 mb-8">
           <a
-            href=""
+            href="https://www.instagram.com/dgbarbershop.df/"
             target="_blank"
             className="bg-gradient-to-r from-pink-600 to-purple-600 hover:opacity-90 text-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
           >
             <Instagram size={16} /> Instagram
           </a>
             <a
-            href="https://wa.me/5561992389117?text=Olá! Gostaria de agendar um horário na DG Barber Shop."
+            href="https://wa.me/5561991084160?text=Olá! Gostaria de agendar um horário na DG Barber Shop."
             className="bg-gradient-to-r from-green-600 to-green-700 hover:opacity-90 text-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
             >
             WhatsApp
