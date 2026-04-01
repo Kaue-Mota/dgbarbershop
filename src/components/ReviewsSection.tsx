@@ -1,31 +1,40 @@
 import { Star } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const reviews = [
+const reviews = 
+[
   {
-    name: "Johny Alves",
-    text: "Corto desde os meus 15 anos de idade, melhor barbeiro da cidade, agora corto o cabelo do meu filho seguindo a mesma tradição! Atendimento top, ambiente super limpo, cara extrovertido bom demais! Nota milll",
+    name: "Anderson Turial",
+    text: "Trata-se de uma barbearia com profissionais prontos para atendê-los. Aceitam agendamento, cartões e Pix. Ambiente bem arejado e limpo, possui 5 cadeiras para barbeiros, bancos de espera e som ambiente."
+  },
+
+  {
+    name: "Robson Carlos",
+    text: "Excelente, fiz meu primeiro corte no Studio do DG e gostei muito, espero poder voltar mais vezes. Parabéns pela organização do espaço e pelo trabalho muito bem feito."
   },
   {
-    name: "Rondinelly Nacimento",
-    text: "Lugar simples e sofisticado, atendimento a altura do cliente... façam uma visita e confira.",
+    name: "Renato Giovanny",
+    text: "Excelente atendimento, profissionais competentes. Virei freguês junto com meus filhos."
   },
   {
-    name: "Luciano Cordeiro",
-    text: "Sempre fui bem atendido aqui, sou cliente já tem uns 5 anos.",
+    name: "João Carlos Gonzaga Filho",
+    text: "Local simples mas agradável. Corte bem feito. Preço muito bom."
   },
   {
-    name: "Henrique Rodrigues",
-    text: "A melhor de Sobradinho, sem dúvidas!",
+    name: "Sofá Binho Limpeza e Impermeabilização",
+    text: "Ótima barbearia. Atendimento excelente. Super recomendo. Serviço feito com maestria."
   },
   {
-    name: "Josair Braz",
-    text: "Atendimento da melhor qualidade, um espaço amigável e confortável!",
+    name: "Adrian Matheus",
+    text: "Boa localização, organizado e os serviços são excelentes!"
   },
   {
-    name: "Renato Rabelo",
-    text: "Excelente profissional, ótima localização, recomendo a todos!",
+    name: "Thomas Santos",
+    text: "Um ambiente agradável com ótimos profissionais."
   },
+  
+  
+
 ];
 
 const ReviewsSection = () => {

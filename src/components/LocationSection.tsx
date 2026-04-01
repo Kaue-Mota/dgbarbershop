@@ -39,7 +39,10 @@ const LocationSection = () => {
               title: "Horário",
               content: (
                 <>
-                  Seg - Sáb:<br />09:00 às 19:00
+                  Segunda: <br />8:00 às 20:00 <br /><br />
+                  Terça - Sexta:<br />09:00 às 19:30 <br /><br />
+                  Sábado:<br />09:00 às 17:00 <br /><br />
+                  Domingo :<br />Fechado
                 </>
               ),
             },
@@ -48,7 +51,8 @@ const LocationSection = () => {
               title: "Contato",
               content: (
                 <>
-                  61 9238-9117
+                  61 99108-4160 <br />
+                  @dgbarbershop.df <br />
                 </>
               ),
             },
@@ -75,7 +79,7 @@ const LocationSection = () => {
         >
           <iframe
             title="Localização DG Barber Shop"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.159494391848!2d-47.83341622487303!3d-15.636492984982036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a40b878a1ecdf%3A0xff0b4395cb872afc!2sBarbearia%20mattos!5e0!3m2!1spt-BR!2sbr!4v1774854329724!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122915.36600047765!2d-47.95706315177966!3d-15.692567520486184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a415caf2caa67%3A0x51ca25d7b81fe391!2sDG%20BARBERSHOP%20%7C%20BARBEARIA%20POR%20ASSINATURA%20EM%20SOBRADINHO!5e0!3m2!1spt-BR!2sbr!4v1775071566165!5m2!1spt-BR!2sbr" 
             width="100%"
             height="300"
             style={{ border: 0 }}
