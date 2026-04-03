@@ -40,11 +40,14 @@ const Header = () => {
     }
   };
 
+  const linkClass =
+    "px-4 py-2 text-xs uppercase tracking-widest font-medium text-muted-foreground hover:text-primary transition-colors relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-px after:bg-primary after:transition-all after:duration-300 hover:after:w-3/4";
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-background/95 backdrop-blur-md border-b border-border shadow-lg shadow-background/20"
+          ? "bg-background/95 backdrop-blur-md border-b border-border shadow-lg shadow-black/30"
           : "bg-transparent"
       }`}
     >
@@ -53,11 +56,11 @@ const Header = () => {
           <img
             src={logo}
             alt="DG Barber Shop"
-            width={40}
-            height={40}
+            width={38}
+            height={38}
             className="transition-transform duration-300 group-hover:scale-110"
           />
-          <span className="hidden sm:block font-display text-sm font-bold uppercase tracking-widest text-gold-gradient">
+          <span className="hidden sm:block poppins-bold text-xs uppercase tracking-widest text-gold-gradient">
             DG Barber Shop
           </span>
         </Link>
@@ -66,11 +69,7 @@ const Header = () => {
         <nav className="hidden lg:flex items-center gap-1">
           {navLinks.map((link) =>
             link.href.startsWith("/") && !link.href.startsWith("/#") ? (
-              <Link
-                key={link.label}
-                to={link.href}
-                className="px-4 py-2 text-xs uppercase tracking-widest font-medium text-muted-foreground hover:text-primary transition-colors relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-px after:bg-primary after:transition-all after:duration-300 hover:after:w-3/4"
-              >
+              <Link key={link.label} to={link.href} className={linkClass}>
                 {link.label}
               </Link>
             ) : (
@@ -81,7 +80,7 @@ const Header = () => {
                   e.preventDefault();
                   handleNavClick(link.href);
                 }}
-                className="px-4 py-2 text-xs uppercase tracking-widest font-medium text-muted-foreground hover:text-primary transition-colors relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-px after:bg-primary after:transition-all after:duration-300 hover:after:w-3/4"
+                className={linkClass}
               >
                 {link.label}
               </a>
@@ -89,7 +88,7 @@ const Header = () => {
           )}
           <a
             href="https://cashbarber.com.br/dgbarbershop"
-            className="ml-4 bg-red-600 text-white font-semibold px-5 py-2 rounded text-xs uppercase tracking-widest hover:opacity-90 transition-opacity"
+            className="ml-4 bg-blue-red-gradient text-white poppins-semibold px-5 py-2 rounded text-xs uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-md hover:shadow-blue-600/30"
           >
             Agendar
           </a>
@@ -101,14 +100,14 @@ const Header = () => {
           className="lg:hidden text-foreground hover:text-primary transition-colors p-2"
           aria-label="Menu"
         >
-          {menuOpen ? <X size={24} /> : <Menu size={24} />}
+          {menuOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${
-          menuOpen ? "max-h-[400px] opacity-100" : "max-h-0 opacity-0"
+        className={`lg:hidden overflow-hidden transition-all duration-400 ease-in-out ${
+          menuOpen ? "max-h-[420px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <nav className="bg-background/98 backdrop-blur-md border-t border-border px-6 py-6 flex flex-col gap-1">
@@ -117,7 +116,7 @@ const Header = () => {
               <Link
                 key={link.label}
                 to={link.href}
-                className="py-3 text-sm uppercase tracking-widest font-medium text-muted-foreground hover:text-primary transition-colors border-b border-border/50"
+                className="py-3 text-sm uppercase tracking-widest poppins-medium text-muted-foreground hover:text-primary transition-colors border-b border-border/50"
               >
                 {link.label}
               </Link>
@@ -129,7 +128,7 @@ const Header = () => {
                   e.preventDefault();
                   handleNavClick(link.href);
                 }}
-                className="py-3 text-sm uppercase tracking-widest font-medium text-muted-foreground hover:text-primary transition-colors border-b border-border/50"
+                className="py-3 text-sm uppercase tracking-widest poppins-medium text-muted-foreground hover:text-primary transition-colors border-b border-border/50"
               >
                 {link.label}
               </a>
@@ -137,7 +136,7 @@ const Header = () => {
           )}
           <a
             href="https://cashbarber.com.br/dgbarbershop"
-            className="mt-4 bg-blue-red-gradient text-white font-semibold px-6 py-3 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-opacity text-center"
+            className="mt-4 bg-blue-red-gradient text-white poppins-semibold px-6 py-3 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all text-center"
           >
             Agendar Horário
           </a>

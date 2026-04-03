@@ -3,39 +3,46 @@ import { Instagram } from "lucide-react";
 
 const FooterSection = () => {
   return (
-    <footer className="py-16 bg-secondary border-t border-border relative overflow-hidden">
-      {/* Ambient glow */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-96 h-32 bg-primary/5 rounded-full blur-3xl pointer-events-none" />
-      
+    <footer className="py-14 bg-secondary border-t border-border relative overflow-hidden">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-96 h-24 bg-primary/4 rounded-full blur-3xl pointer-events-none" />
+
       <div className="container mx-auto px-4 flex flex-col items-center relative z-10">
         <img
           src={logo}
           alt="DG Barber Shop Logo"
-          width={72}
-          height={72}
-          className="mb-6 hover:scale-110 transition-transform duration-300"
+          width={64}
+          height={64}
+          className="mb-5 hover:scale-110 transition-transform duration-300 opacity-90 hover:opacity-100"
           loading="lazy"
         />
+
+        <p className="text-blue-red-gradient poppins-semibold text-xs uppercase tracking-widest mb-5">
+          Estilo, técnica e bom gosto
+        </p>
+
         <div className="flex gap-3 mb-8">
           <a
             href="https://www.instagram.com/dgbarbershop.df/"
             target="_blank"
-            className="bg-gradient-to-r from-pink-600 to-purple-600 hover:opacity-90 text-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-pink-600 to-purple-600 hover:opacity-90 text-white px-5 py-2.5 rounded-lg text-sm poppins-medium flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
           >
-            <Instagram size={16} /> Instagram
+            <Instagram size={15} />
+            Instagram
           </a>
-            <a
+          <a
             href="https://wa.me/5561991084160?text=Olá! Gostaria de agendar um horário na DG Barber Shop."
-            className="bg-gradient-to-r from-green-600 to-green-700 hover:opacity-90 text-foreground px-6 py-2.5 rounded-lg text-sm font-semibold flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
-            >
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-green-600 to-green-700 hover:opacity-90 text-white px-5 py-2.5 rounded-lg text-sm poppins-medium flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
+          >
             WhatsApp
-            </a>
+          </a>
         </div>
-        <div className="w-16 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent mb-6" />
-        <p className="text-primary font-display italic text-sm mb-2">
-          Estilo, técnica e bom gosto em um só lugar
-        </p>
-        <p className="text-muted-foreground text-xs">
+
+        <div className="w-16 h-px bg-gradient-to-r from-blue-600/40 via-red-600/40 to-transparent mb-5" />
+
+        <p className="text-muted-foreground text-xs poppins-light">
           © 2025 DG Barber Shop. Todos os direitos reservados.
         </p>
       </div>
