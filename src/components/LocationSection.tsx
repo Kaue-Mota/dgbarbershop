@@ -31,10 +31,9 @@ const LocationSection = () => {
               title: "Endereço",
               content: (
                 <>
-                  SH Mansões Sobradinho<br />
-                  Condomínio Mini-Chácaras<br />
-                  QMS 23 lote 1 - Sobradinho II<br />
-                  Brasília - DF, 73082-260
+                  Rua das Palmeiras, 347<br />
+                  Vila Madalena<br />
+                  São Paulo - SP, 05435-010
                 </>
               ),
             },
@@ -55,17 +54,17 @@ const LocationSection = () => {
               title: "Contato",
               content: (
                 <>
-                  <a href="tel:5561991084160" className="hover:text-primary transition-colors">
-                    (61) 99108-4160
+                  <a href="tel:5511945217830" className="hover:text-primary transition-colors">
+                    (11) 94521-7830
                   </a>
                   <br />
                   <a
-                    href="https://www.instagram.com/dgbarbershop.df/"
+                    href="https://www.instagram.com/rexbarberco/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
                   >
-                    @dgbarbershop.df
+                    @rexbarberco
                   </a>
                 </>
               ),
@@ -93,8 +92,8 @@ const LocationSection = () => {
           }`}
         >
           <iframe
-            title="Localização DG Barber Shop"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122915.36600047765!2d-47.95706315177966!3d-15.692567520486184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a415caf2caa67%3A0x51ca25d7b81fe391!2sDG%20BARBERSHOP%20%7C%20BARBEARIA%20POR%20ASSINATURA%20EM%20SOBRADINHO!5e0!3m2!1spt-BR!2sbr!4v1775071566165!5m2!1spt-BR!2sbr"
+            title="Localização Rex Barber Co."
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197!2d-46.6909!3d-23.5633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577c7b2b5b1b%3A0x1!2sRua%20das%20Palmeiras%2C%20347%20-%20Vila%20Madalena%2C%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1"
             width="100%"
             height="320"
             style={{ border: 0 }}

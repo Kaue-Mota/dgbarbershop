@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.svg";
 import { Instagram } from "lucide-react";
 
 const FooterSection = () => {
@@ -9,7 +9,7 @@ const FooterSection = () => {
       <div className="container mx-auto px-4 flex flex-col items-center relative z-10">
         <img
           src={logo}
-          alt="DG Barber Shop Logo"
+          alt="Rex Barber Co. Logo"
           width={64}
           height={64}
           className="mb-5 hover:scale-110 transition-transform duration-300 opacity-90 hover:opacity-100"
@@ -17,12 +17,12 @@ const FooterSection = () => {
         />
 
         <p className="text-blue-red-gradient poppins-semibold text-xs uppercase tracking-widest mb-5">
-          Estilo, técnica e bom gosto
+          Precisão, estilo e identidade
         </p>
 
         <div className="flex gap-3 mb-8">
           <a
-            href="https://www.instagram.com/dgbarbershop.df/"
+            href="https://www.instagram.com/rexbarberco/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-pink-600 to-purple-600 hover:opacity-90 text-white px-5 py-2.5 rounded-lg text-sm poppins-medium flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
@@ -31,7 +31,7 @@ const FooterSection = () => {
             Instagram
           </a>
           <a
-            href="https://wa.me/5561991084160?text=Olá! Gostaria de agendar um horário na DG Barber Shop."
+            href="https://wa.me/5511945217830?text=Olá! Gostaria de agendar um horário na Rex Barber Co."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-green-600 to-green-700 hover:opacity-90 text-white px-5 py-2.5 rounded-lg text-sm poppins-medium flex items-center gap-2 transition-all hover:shadow-lg hover:-translate-y-0.5"
@@ -43,7 +43,7 @@ const FooterSection = () => {
         <div className="w-16 h-px bg-gradient-to-r from-blue-600/40 via-red-600/40 to-transparent mb-5" />
 
         <p className="text-muted-foreground text-xs poppins-light">
-          © 2025 DG Barber Shop. Todos os direitos reservados.
+          © 2025 Rex Barber Co. Todos os direitos reservados.
         </p>
       </div>
     </footer>

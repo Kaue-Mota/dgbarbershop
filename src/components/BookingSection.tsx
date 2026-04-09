@@ -27,7 +27,7 @@ const BookingSection = () => {
               Escolha o serviço e o melhor horário para você. Atendimento rápido e agendamento online.
             </p>
             <a
-              href="https://l.instagram.com/?u=https%3A%2F%2Fcashbarber.com.br%2Fdgbarbershop%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnKRPyLVKfB-tPneyNQ6YaRB6ck5z27Fl7m6Nhq1wOrfPlnHCzYLrL6rruuO0_aem_cuBpsnIQ9xo9IX5OBBLdWQ&e=AT6qwM_nXnb1__ERZrwlds7NRqKosWzgobNH8mIyvbLCbEFWh9ycC7I3Yl1HW_reVHcpQkFM08r2x2hGyN9owhBCxMl-c8n6ClZF1nPqtUSCGYfYZB-azRLj2Q"
+              href="https://cashbarber.com.br/rexbarberco"
               className="inline-block bg-blue-red-gradient text-white poppins-bold px-8 py-3.5 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-lg hover:shadow-blue-600/25 hover:-translate-y-0.5"
             >
               Fazer Agendamento

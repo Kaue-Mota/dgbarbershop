@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.svg";
 
 const navLinks = [
   { label: "Início", href: "/#hero" },
@@ -55,13 +55,13 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-3 group">
           <img
             src={logo}
-            alt="DG Barber Shop"
+            alt="Rex Barber Co."
             width={38}
             height={38}
             className="transition-transform duration-300 group-hover:scale-110"
           />
           <span className="hidden sm:block poppins-bold text-xs uppercase tracking-widest text-gold-gradient">
-            DG Barber Shop
+            Rex Barber Co.
           </span>
         </Link>
 
@@ -87,7 +87,7 @@ const Header = () => {
             )
           )}
           <a
-            href="https://cashbarber.com.br/dgbarbershop"
+            href="https://cashbarber.com.br/rexbarberco"
             className="ml-4 bg-blue-red-gradient text-white poppins-semibold px-5 py-2 rounded text-xs uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-md hover:shadow-blue-600/30"
           >
             Agendar
@@ -135,7 +135,7 @@ const Header = () => {
             )
           )}
           <a
-            href="https://cashbarber.com.br/dgbarbershop"
+            href="https://cashbarber.com.br/rexbarberco"
             className="mt-4 bg-blue-red-gradient text-white poppins-semibold px-6 py-3 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all text-center"
           >
             Agendar Horário

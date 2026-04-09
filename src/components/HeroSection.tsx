@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.png";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.svg";
 import { ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
@@ -21,21 +21,21 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col items-center text-center px-4 animate-[fadeInUp_0.9s_ease-out]">
         <img
           src={logo}
-          alt="DG Barber Shop"
+          alt="Rex Barber Co."
           width={120}
           height={120}
           className="w-28 md:w-36 mb-6 drop-shadow-2xl"
         />
         <h1 className="text-4xl md:text-6xl lg:text-7xl poppins-extrabold tracking-wider uppercase text-white mb-3 drop-shadow-lg">
-          DG Barber Shop
+          Rex Barber Co.
         </h1>
         <div className="w-16 h-px bg-gradient-to-r from-blue-600 via-red-600 to-transparent mb-6" />
         <p className="text-muted-foreground text-base md:text-lg poppins-light tracking-widest mb-10 animate-[fadeInUp_0.9s_ease-out_0.3s_both] uppercase">
-          Estilo e técnica que transformam
+          Onde cada corte conta uma história
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-3 animate-[fadeInUp_0.9s_ease-out_0.5s_both]">
           <a
-            href="https://cashbarber.com.br/dgbarbershop"
+            href="https://cashbarber.com.br/rexbarberco"
             className="bg-blue-red-gradient text-white poppins-bold px-10 py-3.5 rounded text-sm uppercase tracking-widest hover:opacity-90 transition-all hover:shadow-xl hover:shadow-blue-600/30 hover:-translate-y-0.5"
           >
             Agendar Horário
